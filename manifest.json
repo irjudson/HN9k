@@ -1,0 +1,17 @@
+{
+ "name" : "HughesNet FAP Monitor for HN9000",
+ "version" : "1.0",
+ "description" : "An extension to show your HN9000 FAP status.",
+ "icons" : {
+   "128" : "icon-128.png",
+   "48"  : "icon-48.png",
+   "16"  : "icon-16.png"
+ },
+ "browser_action": {
+   "default_icon" : "icon-48.png",
+   "popup" : "popup.html"
+   },
+ "permissions" : [
+  "http://192.168.0.1/stlui/user/allowance*"
+  ]
+}
